@@ -5,13 +5,14 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+
   <title>Vite App</title>
 </head>
 
 <body>
   <div id="app"></div>
-  <video id="my-player" class="video-js" controls preload="auto" >
-    <source src="https://cdn.jwplayer.com/manifests/qXSvVKaS.m3u8?exp=1620860344&sig=f3f79a6d162bf0b9a9f558fc00d30c20" type="application/x-mpegURL" />
+  <video-js id="my-player" class="video-js" controls preload="auto" >
    
     <p class="vjs-no-js">
       To view this video please enable JavaScript, and consider upgrading to a
@@ -20,7 +21,7 @@
         supports HTML5 video
       </a>
     </p>
-  </video>
+  </video-js>
   <script type="module" src="/main.js"></script>
 </body>
 

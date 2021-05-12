@@ -10,6 +10,7 @@
     "vite": "^2.3.0"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "video.js": "^7.11.8"
   }
 }
